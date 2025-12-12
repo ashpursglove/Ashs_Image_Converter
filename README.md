@@ -97,7 +97,7 @@ This is a first-class feature, not an afterthought.
   - 256
 - Live preview at multiple resolutions
 
-**No sketchy web converters.**
+**No sketchy web converters.**  
 No blurry taskbar icons.  
 No ritual sacrifices.
 
