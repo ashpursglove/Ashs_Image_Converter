@@ -1,0 +1,16 @@
+# Ignore Python bytecode cache directories everywhere
+__pycache__/
+**/__pycache__/
+
+# Ignore compiled Python files
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore macOS Finder junk
+.DS_Store
+
+# Ignore virtual environments (optional but recommended)
+venv/
+env/
+*.venv/
