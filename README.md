@@ -26,6 +26,8 @@ So this app does the job and gets out of the way.
 ## What This App Does
 
 ### Image Conversion
+<img width="1918" height="1017" alt="image" src="https://github.com/user-attachments/assets/bd0ca175-468f-43fd-b2b2-b301217e738b" />
+
 
 Convert images between common formats without ceremony:
 
@@ -77,6 +79,8 @@ You enable resize, set the numbers, and move on with your life.
 ---
 
 ### Windows ICO Generator
+<img width="1918" height="1017" alt="image" src="https://github.com/user-attachments/assets/9572e940-eeac-4252-8f20-4e7151faa925" />
+
 
 This is a first-class feature, not an afterthought.
 
