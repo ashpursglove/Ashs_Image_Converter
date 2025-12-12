@@ -205,7 +205,7 @@ No further steps.
 - Dark blue background
 - Orange highlights
 - Clean, readable text
-- No light mode
+- No light mode, none, ever
 - No visual noise
 
 This is a tool, not a branding exercise.
