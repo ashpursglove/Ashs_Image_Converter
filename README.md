@@ -234,7 +234,7 @@ Because:
 
 - resizing an image should not require a login
 - converting formats should not require a monthly payment
-- generating an ICO should not feel like necromancy
+- generating an ICO should not feel like your're going on the dark web
 - and 4GB installers for resizing a PNG are objectively unhinged
 
 So yes.
