@@ -252,6 +252,6 @@ Build it from source if you must.
 Judge others silently either way.
 
 If it saves you time, good.  
-If it saves you from opening Creative Cloud, even better.
+If it saves you from opening Creative Cloud, even better.  
 If it takes buisness away from Adobe, thats a **victory!**
 
