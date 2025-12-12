@@ -224,7 +224,7 @@ This is a tool, not a branding exercise.
 
 And very specifically:
 
-Not Adobe.
+**Not Adobe.**
 
 ---
 
@@ -239,7 +239,7 @@ Because:
 
 So yes.
 
-Fuck Adobe.
+**Fuck Adobe.**
 
 ---
 
