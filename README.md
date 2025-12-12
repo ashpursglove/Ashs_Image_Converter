@@ -17,7 +17,7 @@ Ash’s Image Converter is a small, fast, local desktop application for doing ba
 - “your trial ends soon” warnings  
 - software that thinks it’s a lifestyle brand  
 
-It exists because opening Photoshop to resize an image, convert a format, or generate a Windows icon is an act of unnecessary suffering.
+It exists because opening Photoshop to resize an image, convert a format, or generate a Windows icon is a hate crime.
 
 So this app does the job and gets out of the way.
 
@@ -82,7 +82,7 @@ You enable resize, set the numbers, and move on with your life.
 <img width="1918" height="1017" alt="image" src="https://github.com/user-attachments/assets/9572e940-eeac-4252-8f20-4e7151faa925" />
 
 
-This is a first-class feature, not an afterthought.
+This is a "from conception" feature, not an afterthought.
 
 - Generate proper multi-size .ico files
 - Designed to work correctly with PyInstaller
