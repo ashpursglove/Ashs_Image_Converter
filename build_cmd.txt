@@ -1,0 +1,1 @@
+pyinstaller --onefile --windowed --name "Ashpic" --icon pepeico.ico main.py
