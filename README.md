@@ -1,4 +1,4 @@
-# Ashs_Image_Converter
+# Ashs Image Converter
 
 ## No subscriptions. No logins. No cloud. No account.
 ### Because 4GB installers for resizing a PNG are unhinged… fuck you, Adobe.
