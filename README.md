@@ -1,232 +1,253 @@
-# Ashs Image Converter
+# Ash’s Image Converter
 
-## No subscriptions. No logins. No cloud. No account.
-### Because 4GB installers for resizing a PNG are unhinged… fuck you, Adobe.
+**No subscriptions. No logins. No cloud. No account.**  
+Because **4GB installers for resizing a PNG are unhinged… fuck you Adobe.**
 
-What Is This?
+---
 
-This is a small, fast, local desktop application for doing image chores without:
+## What Is This?
 
-a subscription
+Ash’s Image Converter is a small, fast, local desktop application for doing basic image chores without:
 
-an account
+- subscriptions  
+- accounts  
+- cloud syncing  
+- telemetry  
+- login popups  
+- “your trial ends soon” warnings  
+- software that thinks it’s a lifestyle brand  
 
-a cloud sync
+It exists because opening Photoshop to resize an image, convert a format, or generate a Windows icon is an act of unnecessary suffering.
 
-a login popup
+So this app does the job and gets out of the way.
 
-a “your trial ends in 3 days” threat
+---
 
-a creative director asking how the image feels
+## What This App Does
 
-It exists because opening Photoshop to:
+### Image Conversion
 
-resize an image
+Convert images between common formats without ceremony:
 
-convert a format
+- Supported input formats:
+  - PNG
+  - JPG / JPEG
+  - WEBP
+  - BMP
+  - TIFF
+  - GIF
+- Supported output formats:
+  - PNG
+  - JPG / JPEG
+  - WEBP
+  - BMP
+  - TIFF
 
-make a Windows icon
+Additional features:
+- Batch conversion
+- Folder-level imports
+- Custom output directory
+- Filename handling:
+  - Keep original names
+  - Add prefix or suffix
+  - Auto-number to avoid collisions
 
-is an act of self-harm.
+No “Export As”.  
+No nested dialogs.  
+No surprises.
 
-So I built a tool that just does the job and shuts up.
+---
 
-What This App Does (And Does Well)
-Convert Images Like a Normal Person
+### Resize (Optional)
 
-Convert between:
+Resize is fully optional and entirely under your control.
 
-PNG
+- Set width and height in pixels
+- Keep or unlock aspect ratio
+- Resize modes:
+  - Fit inside (contain)
+  - Fill and crop (cover)
+  - Stretch (if you insist)
+- Prevent upscaling to avoid blurry images
+- Quality control for JPEG / WEBP
+- Optional optimization for smaller file sizes
 
-JPG / JPEG
+You enable resize, set the numbers, and move on with your life.
 
-WEBP
+---
 
-BMP
+### Windows ICO Generator
 
-TIFF
+This is a first-class feature, not an afterthought.
 
-Batch convert entire folders
+- Generate proper multi-size .ico files
+- Designed to work correctly with PyInstaller
+- Select exactly which sizes to include
+- Default sizes:
+  - 16
+  - 24
+  - 32
+  - 48
+  - 64
+  - 128
+  - 256
+- Live preview at multiple resolutions
 
-Choose output format from a dropdown
+No web converters.  
+No blurry taskbar icons.  
+No ritual sacrifices.
 
-Choose output folder
+---
 
-Keep original filenames or add prefixes/suffixes
+### Drag & Drop
 
-Auto-number files so nothing explodes
+- Drag individual files
+- Drag multiple files
+- Drag entire folders
 
-No “Export As…”
-No “Save for Web…”
-No dialogs nested inside dialogs.
+The app does not argue with you about this.
 
-Resize Images Without Summoning a Wizard
+---
 
-Optional resize controls:
+### Preview Before You Commit
 
-Set width + height
+- Preview the original image
+- Preview resized output
+- See format, dimensions, output name, and destination
+- Optional before/after comparison
 
-Keep aspect ratio (like a sane human)
+If something looks wrong, you see it before it gets written to disk.
 
-Resize modes:
+---
 
-Fit inside (contain)
+### Useful Extras (Not Gimmicks)
 
-Fill and crop (cover)
+- Strip EXIF metadata for privacy and smaller files
+- Auto-rotate images using EXIF orientation
+- Transparency handling:
+  - Clear warnings when converting PNG to JPG
+  - Choose background fill colour
+- Copy output paths to clipboard
+- Open output folder with one click
+- Clear per-file error reporting during batch operations
 
-Stretch (if you hate yourself)
+When something fails, the app tells you exactly what and why.
 
-Prevent upscaling so small images don’t turn into mush
+---
 
-Quality slider for JPEG / WEBP
+## The EXE (Yes, I Included One)
 
-Optimization toggle for smaller file sizes
+There is a **pre-built Windows executable** included in this repo.
 
-You click a checkbox.
-The image resizes.
+This means:
+- No Python install required
+- No virtual environments
+- No dependency wrangling
+- Double-click and go
+
+This is here for:
+- convenience
+- friends
+- people who just want the tool to work
+
+### Important Cultural Note
+
+Using the EXE is **technically cheating**.
+
+OGs:
+- clone the repo
+- read the code
+- install the dependencies
+- run it from source
+- nod quietly at their own competence
+
+But it’s fine.
+Not everyone has the time.
+Clicking the EXE does not make you a bad person.
+Just… spiritually, you know what you did.
+
+---
+
+## Requirements (If You’re an OG)
+
+If you’re running from source, you’ll need:
+
+PyQt5  
+pillow  
+
+Install them however you normally install Python things without crying.
+
+Two dependencies.  
 That’s it.
-That’s the whole ceremony.
 
-Proper Windows ICO Generator (This Is Important)
+---
 
-If you’ve ever made a Windows icon, you already know the pain.
+## Running the App
 
-This app:
+If you’re building it yourself:
 
-Takes a single input image (PNG with transparency recommended)
-
-Generates a proper multi-size .ico
-
-Default sizes included:
-
-16, 24, 32, 48, 64, 128, 256
-
-Works correctly with PyInstaller
-
-Includes previews at multiple sizes so your icon doesn’t look like a crime scene
-
-No external websites.
-No sketchy converters.
-No “why does my taskbar icon look blurry”.
-
-Drag & Drop (Because It’s Not 1998)
-
-Drag one file
-
-Drag ten files
-
-Drag a whole folder
-
-It just works
-
-No file-picker marathons.
-
-Preview Everything Before You Commit
-
-See the original image
-
-See the resized output preview
-
-See output format, size, filename, destination
-
-Know exactly what you’re about to get
-
-No surprises. No “oops”.
-
-Extras That Actually Matter
-
-Strip EXIF metadata (privacy + smaller files)
-
-Auto-rotate photos using EXIF (sideways photos begone)
-
-Transparency handling:
-
-PNG → JPG warnings
-
-Choose background fill colour
-
-Copy output path to clipboard
-
-Open output folder with one click
-
-Clear error messages when something fails
-
-If a file breaks, it tells you which one and why.
-
-UI Philosophy
-
-Dark blue background
-
-Orange highlights
-
-No light mode
-
-No pastel nonsense
-
-No “friendly onboarding experience”
-
-It’s a tool.
-You already know what you want to do.
-This app respects that.
-
-What This Is NOT
-
-Not a cloud app
-
-Not a web service
-
-Not AI-powered
-
-Not subscription-based
-
-Not trying to upsell you anything
-
-Not tracking you
-
-Not asking for an account
-
-Not asking how you’re feeling today
-
-Absolutely fuck Adobe, but also:
-fuck the idea that every tiny utility needs to be a platform.
-
-Requirements
-pip install PyQt5 pillow
-
-
-That’s it.
-Two dependencies.
-Not forty-seven.
-
-Run It
 python main.py
 
+If you’re using the EXE:
 
-The app opens maximized, ready to work, no warm-up lap.
+Double-click it.
+Enjoy your life.
+No further steps.
 
-Why This Exists
+---
+
+## UI Philosophy
+
+- Dark blue background
+- Orange highlights
+- Clean, readable text
+- No light mode
+- No visual noise
+
+This is a tool, not a branding exercise.
+
+---
+
+## What This Is Not
+
+- Not a web app
+- Not cloud-based
+- Not subscription software
+- Not AI-powered
+- Not telemetry-heavy
+- Not interested in your email address
+- Not asking how you feel today
+
+And very specifically:
+
+Not Adobe.
+
+---
+
+## Why This Exists
 
 Because:
 
-resizing an image should not require a login
+- resizing an image should not require a login
+- converting formats should not require a monthly payment
+- generating an ICO should not feel like necromancy
+- and 4GB installers for resizing a PNG are objectively unhinged
 
-converting formats should not require a subscription
-
-making an ICO should not feel like necromancy
-
-and 4GB installers for resizing a PNG are genuinely unhinged
-
-So again, with feeling:
+So yes.
 
 Fuck Adobe.
 
-Final Notes
+---
 
-This is a personal tool.
-Built out of irritation.
-Used daily.
-Shared with friends who are also tired.
+## Final Notes
 
-If it saves you five minutes, that’s a win.
-If it saves you from opening Creative Cloud, that’s a victory.
+This is a personal tool built out of irritation and used a lot.
+
+Use the EXE if you want.  
+Build it from source if you must.  
+Judge others silently either way.
+
+If it saves you time, good.  
+If it saves you from opening Creative Cloud, even better.
+If it takes buisness away from Adobe, thats a **victory!**
 
