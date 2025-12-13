@@ -17,7 +17,7 @@ Ash’s Image Converter is a small, fast, local desktop application for doing ba
 - “your trial ends soon” warnings  
 - software that thinks it’s a lifestyle brand  
 
-It exists because opening Photoshop to resize an image, convert a format, or generate a Windows icon is an act of unnecessary suffering.
+It exists because opening Photoshop to resize an image, convert a format, or generate a Windows icon is a hate crime.
 
 So this app does the job and gets out of the way.
 
@@ -82,7 +82,7 @@ You enable resize, set the numbers, and move on with your life.
 <img width="1918" height="1017" alt="image" src="https://github.com/user-attachments/assets/9572e940-eeac-4252-8f20-4e7151faa925" />
 
 
-This is a first-class feature, not an afterthought.
+This is a "from conception" feature, not an afterthought.
 
 - Generate proper multi-size .ico files
 - Designed to work correctly with PyInstaller
@@ -97,7 +97,7 @@ This is a first-class feature, not an afterthought.
   - 256
 - Live preview at multiple resolutions
 
-No web converters.  
+**No sketchy web converters.**  
 No blurry taskbar icons.  
 No ritual sacrifices.
 
@@ -205,7 +205,7 @@ No further steps.
 - Dark blue background
 - Orange highlights
 - Clean, readable text
-- No light mode
+- No light mode, none, ever
 - No visual noise
 
 This is a tool, not a branding exercise.
@@ -224,7 +224,7 @@ This is a tool, not a branding exercise.
 
 And very specifically:
 
-Not Adobe.
+**Not Adobe.**
 
 ---
 
@@ -234,12 +234,12 @@ Because:
 
 - resizing an image should not require a login
 - converting formats should not require a monthly payment
-- generating an ICO should not feel like necromancy
+- generating an ICO should not feel like your're going on the dark web
 - and 4GB installers for resizing a PNG are objectively unhinged
 
 So yes.
 
-Fuck Adobe.
+**Fuck Adobe.**
 
 ---
 
@@ -252,6 +252,6 @@ Build it from source if you must.
 Judge others silently either way.
 
 If it saves you time, good.  
-If it saves you from opening Creative Cloud, even better.
+If it saves you from opening Creative Cloud, even better.  
 If it takes buisness away from Adobe, thats a **victory!**
 
