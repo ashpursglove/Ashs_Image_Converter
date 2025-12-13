@@ -259,6 +259,7 @@ If it takes buisness away from Adobe, thats a **victory!**
 # License
 
 MIT License.  
-Use it, modify it, ship it, break it — just don’t blame me when get addicted to changing .ICOs!
+Use it, modify it, ship it, break it.  
+Just don’t blame me when get addicted to changing .ICOs!
 ---
 
