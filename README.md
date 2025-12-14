@@ -177,7 +177,10 @@ Just… spiritually, you know what you did.
 If you’re running from source, you’ll need:
 
 PyQt5  
-pillow  
+pillow 
+
+Or just do:  
+pip install -r requirements.txt
 
 Install them however you normally install Python things without crying.
 
